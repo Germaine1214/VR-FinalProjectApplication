@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1838596, g: 0.22905548, b: 0.30340147, a: 1}
+  m_IndirectSpecularColor: {r: 0.18385932, g: 0.22905512, b: 0.30340105, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -442,6 +442,7 @@ GameObject:
   - component: {fileID: 151698247}
   - component: {fileID: 151698250}
   - component: {fileID: 151698249}
+  - component: {fileID: 151698251}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -481,14 +482,10 @@ Transform:
   - {fileID: 1691787211}
   m_Father: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_RootOrder: 7
 =======
   m_RootOrder: 3
 >>>>>>> parent of c8b3b73 (guanz)
-=======
-  m_RootOrder: 9
->>>>>>> parent of f3380dd (1:24)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &151698249
 MonoBehaviour:
@@ -523,6 +520,20 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0.13, y: -1.83, z: 2.42}
+--- !u!136 &151698251
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151698246}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &315687952
 GameObject:
   m_ObjectHideFlags: 0
@@ -1130,14 +1141,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_RootOrder: 5
 =======
   m_RootOrder: 1
 >>>>>>> parent of c8b3b73 (guanz)
-=======
-  m_RootOrder: 7
->>>>>>> parent of f3380dd (1:24)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &499336874
 MonoBehaviour:
@@ -1573,14 +1580,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_RootOrder: 2
 =======
   m_RootOrder: 5
 >>>>>>> parent of c8b3b73 (guanz)
-=======
-  m_RootOrder: 5
->>>>>>> parent of f3380dd (1:24)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &637548361
 MonoBehaviour:
@@ -1635,7 +1638,7 @@ MonoBehaviour:
   m_System: {fileID: 637548359}
   m_MoveSpeed: 5
   m_EnableStrafe: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_GravityApplicationMode: 0
   m_ForwardSource: {fileID: 0}
   m_LeftHandMoveAction:
@@ -1818,14 +1821,10 @@ PrefabInstance:
     - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 3
 =======
       value: 4
 >>>>>>> parent of c8b3b73 (guanz)
-=======
-      value: 4
->>>>>>> parent of f3380dd (1:24)
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2057,7 +2056,7 @@ Transform:
   m_Children:
   - {fileID: 2101963870}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of c8b3b73 (guanz)
@@ -3081,7 +3080,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of c8b3b73 (guanz)
@@ -3605,14 +3604,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_RootOrder: 1
 =======
   m_RootOrder: 2
 >>>>>>> parent of c8b3b73 (guanz)
-=======
-  m_RootOrder: 2
->>>>>>> parent of f3380dd (1:24)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &12744479111049875
 GameObject:
