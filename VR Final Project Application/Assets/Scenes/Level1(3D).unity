@@ -527,7 +527,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 1
+  m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &315687952
@@ -1627,7 +1627,7 @@ MonoBehaviour:
   m_System: {fileID: 637548359}
   m_MoveSpeed: 5
   m_EnableStrafe: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_GravityApplicationMode: 0
   m_ForwardSource: {fileID: 0}
   m_LeftHandMoveAction:
@@ -8995,6 +8995,7 @@ GameObject:
   - component: {fileID: 2915768346821704948}
   - component: {fileID: 2915768346821704949}
   - component: {fileID: 2915768346821704950}
+  - component: {fileID: 2915768346821704951}
   m_Layer: 0
   m_Name: ghost
   m_TagString: Untagged
@@ -9894,6 +9895,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   moveSpeed: 0.1
+--- !u!114 &2915768346821704951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2539242323000354382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415e31802f7546e49ae07a53cfc72b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 6213363054212504870}
+  moveSpeed: 1
 --- !u!4 &2918230748733084405
 Transform:
   m_ObjectHideFlags: 0
