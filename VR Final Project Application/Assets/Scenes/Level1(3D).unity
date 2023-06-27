@@ -480,7 +480,7 @@ Transform:
   m_Children:
   - {fileID: 1691787211}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &151698249
 MonoBehaviour:
@@ -1121,7 +1121,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &499336874
 MonoBehaviour:
@@ -1841,7 +1841,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
-<<<<<<< HEAD
 --- !u!1 &1008634382
 GameObject:
   m_ObjectHideFlags: 0
@@ -2027,8 +2026,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> parent of c8b3b73 (guanz)
 --- !u!1 &1104521447
 GameObject:
   m_ObjectHideFlags: 0
@@ -2867,7 +2864,6 @@ Transform:
   m_Father: {fileID: 489138465}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
-<<<<<<< HEAD
 --- !u!1 &1531553122
 GameObject:
   m_ObjectHideFlags: 0
@@ -3051,8 +3047,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> parent of c8b3b73 (guanz)
 --- !u!1 &1656535287
 GameObject:
   m_ObjectHideFlags: 0
